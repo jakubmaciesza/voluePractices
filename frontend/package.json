@@ -1,0 +1,36 @@
+{
+    "name": "trainint-circle-square-frontend",
+    "version": "1.0.0",
+    "description": "Interactive OX Game Frontend",
+    "main": "index.js",
+    "scripts": {
+        "test": "nyc --require esm --require jsdom-global/register --require @riotjs/register mocha src/**/*.spec.js",
+        "cov": "nyc report --reporter=text-lcov",
+        "cov-html": "nyc report --reporter=html",
+        "build": "parcel build index.html --out-dir=dist",
+        "prepublishOnly": "npm test",
+        "start": "parcel index.html --open"
+    },
+    "author": "Jarosław Krefta",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/config-default": "^2.7.0",
+        "@parcel/resolver-glob": "^2.7.0",
+        "@riotjs/compiler": "^6.3.2",
+        "@riotjs/parcel-transformer-riot": "^7.0.4",
+        "@riotjs/register": "^6.0.1",
+        "chai": "^4.3.6",
+        "esm": "^3.2.25",
+        "jsdom": "^20.0.0",
+        "jsdom-global": "^3.0.2",
+        "mocha": "^8.4.0",
+        "nyc": "^15.1.0",
+        "parcel": "^2.7.0",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "@microsoft/signalr": "^7.0.2",
+        "@riotjs/hot-reload": "^6.0.1",
+        "riot": "^7.0.3"
+    }
+}

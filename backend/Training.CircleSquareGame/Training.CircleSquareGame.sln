@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.CircleSquareGame.Api", "Training.CircleSquareGame.Api\Training.CircleSquareGame.Api.csproj", "{AA46F3BA-AD67-4BB1-A106-A43A492D0834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA46F3BA-AD67-4BB1-A106-A43A492D0834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA46F3BA-AD67-4BB1-A106-A43A492D0834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA46F3BA-AD67-4BB1-A106-A43A492D0834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA46F3BA-AD67-4BB1-A106-A43A492D0834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

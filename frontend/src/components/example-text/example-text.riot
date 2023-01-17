@@ -1,0 +1,13 @@
+<example-text>
+    <p>{ state.value }</p>
+    <script>
+    export default {
+        onMounted() {
+            this.appState.exampleText = this
+            this.update({
+                value: 'Click on example-button!'
+            })
+        }
+    }
+  </script>
+</example-text>

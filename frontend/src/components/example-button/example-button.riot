@@ -1,0 +1,15 @@
+<example-button>
+    <button class="button button-outline" onclick="{ () => yourFunction() }">example-button</button>
+    <script>
+    export default {
+        yourFunction() {
+            var message = "You clicked example-button!"
+            console.log(message)
+            console.log(this.appState)
+            this.appState.exampleText.update({ 
+                value: message 
+            })
+        }
+    }
+  </script>
+</example-button>
